@@ -58,38 +58,6 @@ Then visit:
 http://localhost:8000
 ```
 
-## API Endpoints
-
-### Products
-
-- `GET /api/products` - list all products
-- `GET /api/products?genre=<genre>` - filter products by genre
-- `GET /api/products?search=<term>` - search by title, artist, or genre
-- `GET /api/products/genres` - list available genres
-
-### Authentication
-
-- `POST /api/auth/register` - register a new user
-- `POST /api/auth/login` - log in
-- `GET /api/auth/logout` - log out
-- `GET /api/auth/me` - get current user status
-
-### Cart (authenticated)
-
-- `POST /api/cart/add` - add a product to the cart
-- `GET /api/cart/cart-count` - get total cart item count
-- `GET /api/cart/` - get all cart items
-- `DELETE /api/cart/all` - clear the cart
-- `DELETE /api/cart/:itemId` - remove a specific cart item
-
-## Frontend
-
-The app serves the following pages from `public/`:
-
-- `index.html` - product browsing and cart UI
-- `login.html` - login page
-- `signup.html` - registration page
-- `cart.html` - cart review page
 
 ## Notes
 
